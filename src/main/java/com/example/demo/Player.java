@@ -1,7 +1,23 @@
 package com.example.demo;
 
 public class Player {
-private static int count=1;
+private static int count=0;
+private int pos;
+
+    public int getPos() {
+        return pos;
+    }
+
+    public void setPos(int pos) {
+        this.pos = pos;
+    }
+
+    public Player(){
+
+    pos=0;
+
+
+}
 
 public static void increaseCount(){
 

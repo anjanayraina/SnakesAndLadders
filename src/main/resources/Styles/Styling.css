@@ -1,0 +1,13 @@
+.chart {
+   -fx-padding: 10px;
+   -fx-background-image: url("C:\Users\anjan\IdeaProjects\demo\src\main\resources\Images\ladder-snake-game-funny-frame-children-64850196.jpg");
+}
+.chart-plot-background {
+   -fx-background-color: transparent;
+}
+.chart-vertical-grid-lines {
+   -fx-stroke: #dedddc; -fx-stroke-width: 2;
+}
+.chart-horizontal-grid-lines {
+   -fx-stroke: #dedddc; -fx-stroke-width: 2;
+}

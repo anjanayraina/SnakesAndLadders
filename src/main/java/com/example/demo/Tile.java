@@ -1,32 +1,54 @@
 package com.example.demo;
 
-public class Tile  {
+import javafx.scene.shape.Rectangle;
 
-    private int position;
-    private boolean snake;
-    private boolean ladder;
+public class Tile extends Rectangle {
 
-    public int getPosition() {
-        return position;
+    private static final int lenght=50;
+    private static final int girth=50;
+
+    public static int getLenght(){
+
+        return lenght;
     }
 
-    public void setPosition(int position) {
-        this.position = position;
+    public static int getGirth(){
+
+        return girth;
     }
 
-    public boolean isSnake() {
+
+
+private int cord;
+
+    public int getCord() {
+        return cord;
+    }
+
+    public void setCord(int cord) {
+        this.cord = cord;
+    }
+
+    private Snake snake =null;
+    private Ladder ladder =null;
+
+    public Snake getSnake() {
         return snake;
     }
 
-    public void setSnake(boolean snake) {
+    public void setSnake(Snake snake) {
         this.snake = snake;
     }
 
-    public boolean isLadder() {
+    public Ladder getLadder() {
         return ladder;
     }
 
-    public void setLadder(boolean ladder) {
+    public void setLadder(Ladder ladder) {
         this.ladder = ladder;
     }
+
+
+
+
 }
